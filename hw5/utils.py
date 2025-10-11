@@ -61,6 +61,8 @@ class Interface:
         # Display rows
         for row in result:
             print(row)
+
+        input('Enter anything to continue: ')
         pass
 
     def manufacturer(self):
@@ -124,6 +126,8 @@ class Interface:
         # Display rows
         for row in result:
             print(row)
+
+        input('Enter anything to continue: ')
         pass
     pass
 
