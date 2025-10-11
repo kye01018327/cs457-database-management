@@ -17,4 +17,3 @@ app.start()
         # Show table/price
 
     # Quit
-# psycopg (psycopg3) or psycopg2: same parameter style (%s)
