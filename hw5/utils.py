@@ -95,9 +95,9 @@ class Interface:
         
         # Get input
         while True:
-            uin = input('Enter model number to view price: ')
+            uin1 = input('Enter model number to view price: ')
             try:
-                uin = int(uin)
+                uin1 = int(uin1)
                 break
             except:
                 print('Invalid, try again')
@@ -114,9 +114,9 @@ class Interface:
             	(SELECT model, price FROM printer)
             ) as products
             ON product.model = products.model
-            WHERE product.model = %s
+            WHERE product.model = %s AND product.maker = %s
             ''',
-            (uin,)
+            (uin1, uin)
         )
 
         # Display result
