@@ -1,2 +1,2 @@
 # cs457-database-management
-compilation of assignments and projects for this class
+compilation of assignments and projects for CS457, Database Management
